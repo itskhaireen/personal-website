@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello</title>
+
+    <style>
+        .campus-life {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; /* Allows activities to wrap to the next row if the screen is narrow */
+            padding: 20px;
+        }
+
+        .activity {
+            flex-basis: calc(50% - 20px); /* Two activities in a row with spacing in between */
+            background-color: transparent;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .activity h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .activity p {
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Putri Khairi</a>
+
+        <nav class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="Biodata.html">Biodata</a>
+            <a href="Hobbies.html">Hobbies</a>
+            <a href="#" class="active">Campus Life</a>
+        </nav>
+    </header>
+
+    <section class="home">
+
+        <div class="heading">
+            <h1>Memorable Activities</h1>
+        </div>
+
+        <div class="campus-life">
+            <div class="activity">
+                <h2>Hydroponic Farming Workshop</h2>
+                <p>A hands-on workshop where I learned about sustainable farming techniques using hydroponics. It was a great opportunity to grow plants without soil, gaining insights into modern agriculture practices.</p>
+            </div>
+            
+            <div class="activity">
+                <h2>Sign Language Class</h2>
+                <p>I joined a sign language class to explore a new language and enhance communication skills. Learning sign language has opened up a world of inclusivity and enabled me to connect with the Deaf community.</p>
+            </div>
+
+            <div class="activity" style="background-color: rgba(25, 25, 112, 0.8);">
+                <h2>Palestinian Solidarity March</h2>
+                <p>I participated in the Palestinian Solidarity March, showing my support for global peace and justice. It was a powerful experience to stand in solidarity with a cause I deeply believe in.</p>
+            </div>
+
+            <div class="activity"  style="background-color: rgba(25, 25, 112, 0.8);">
+                <h2>Careers Fair for Internships</h2>
+                <p>I attended a careers fair to explore internship opportunities in my field of computer science. It was a valuable experience connecting with potential employers and learning about career prospects.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
